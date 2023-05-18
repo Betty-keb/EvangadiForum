@@ -1,0 +1,122 @@
+.signup {
+  background-image: url("https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg");
+  background-size: cover;
+  background-position: center;
+  background-color:whitesmoke;
+  background-repeat: no-repeat;
+   height: 700px; 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signup__container {
+  margin-left: 150px;
+  text-align: center;
+  margin-top: 35px;
+}
+.signup__title {
+  font-size: 16px;
+  width: 530px;
+  height: 530px;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgb(158 158 158 / 90%);
+  border-radius: 10px;
+  position: relative;
+  top: 0;
+}
+
+.signup__title h2 {
+  font-size: 22px;
+  color:#4B456F;
+  padding-top: 60px;
+}
+
+p a {
+  color: #db7202;
+}
+.signup__form input {
+  height: 40px;
+  margin-bottom: 9px;
+  width: 450px;
+  border: 1.9px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.signup__form{
+  padding-top: 20px;
+}
+.eye{
+  margin-left: -30px;
+  }
+.signup__FLname {
+  display: flex;
+  padding: 0 35px;
+}
+#lastname {
+  margin-left: 7px;
+}
+.signup__button {
+  height: 45px;
+  width: 455px;
+  margin: 20px 0;
+  background-color: #516cf0;
+  border: 1px solid #3a59ef;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.signup__container button:hover {
+  background: #f17f04;
+  border: #fe8402;
+  cursor: pointer;
+}
+
+.signup__about {
+  padding-top: 150px;
+  width: 600px;
+  padding-left: 40px;
+  font-size: 17px;
+}
+.signup__about h1{
+  font-size: 35px;
+  color:#4B456F;
+}
+#about {
+  color: #f88409;
+}
+.signup__about button {
+  background: #f17f04;
+  border: 1px solid #fe8402;
+  border-radius: 4px;
+  padding: 12px;
+  color: #fff;
+  width: 190px;
+  margin-top: 20px;
+}
+@media(max-width : 960px){
+  .signup{
+    height: 1000px;
+  }
+  .signup__title{
+    width: 100%;
+  }
+  .signup__container{
+    margin-left: 0px;
+    margin: 0 50px;
+  }
+  .signup__about{
+    margin-left: 0;
+    margin: 0 80px;
+  }
+  .signup__FLname {
+    display: block;
+  }
+  .signup__title{
+height: 550px;
+  }
+  .signup__about{
+    padding-top: 0;
+    padding-top: 60px;
+  }
+
+}
